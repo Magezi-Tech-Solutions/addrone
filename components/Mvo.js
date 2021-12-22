@@ -53,7 +53,7 @@ function Mvo() {
             <h2 className="text-5xl font-bold text-white">Executive</h2>
             <h3 className="text-2xl font-medium text-white">Summary</h3>
             <div className="flex flex-col items-center pt-4 space-y-4 md:items-start">
-              <p className="text-center text-white md:text-left">
+              <p className="text-left text-white md:text-left">
                 Addrone Digital is a value addition company within the drone
                 industry. We are a registered entity under the Kenya company
                 regulation act that was founded on April 30th 2018.
@@ -66,15 +66,15 @@ function Mvo() {
               </button>
               <h2 className="text-5xl font-bold text-white">Mission</h2>
               <div className="flex flex-col items-center pt-4 space-y-4 md:items-start">
-                <p className="text-center text-white md:text-left">
+                <p className="text-left text-white md:text-left">
                   Provide innovative consumer rich solutions; engaging a desired
                   target audience at the right place at the right time.
                 </p>
               </div>
               <h2 className="text-5xl font-bold text-white">Vision</h2>
               <div className="flex flex-col items-center pt-4 space-y-4 md:items-start">
-                <p className="text-center text-white md:text-left">
-                  Uniqueness in our craft <br /> to make you different!
+                <p className="text-left text-white md:text-left">
+                  Uniqueness in our craft to make you different!
                 </p>
               </div>
             </div>
