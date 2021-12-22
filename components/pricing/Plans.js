@@ -3,7 +3,7 @@ function Plans() {
     <section className="py-20 bg-gray-100">
       <div className="flex flex-col max-w-6xl px-12 mx-auto lg:px-8">
         <h1 className="max-w-md text-4xl font-extrabold text-gray-900 sm:mx-auto lg:max-w-none lg:text-5xl sm:text-center">
-          Pricing Plans
+          Our Package Pricing Plans
         </h1>
         <p className="max-w-md mx-auto mt-5 text-lg text-gray-500 lg:max-w-none lg:text-xl sm:text-center">
           Everything you need to help you succeed. Simple transparent pricing to
