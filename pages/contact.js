@@ -39,7 +39,7 @@ function Contact() {
                     <Image src="/logo.png" layout="fill" objectFit="contain" />
                   </div>
                 </a>
-                <form onsubmit="event.preventDefault();">
+                <form>
                   <div className="relative flex items-center mb-4">
                     <svg
                       className="absolute ml-4 w-8 h-8 stroke-current text-gray-200 mt-0.5"

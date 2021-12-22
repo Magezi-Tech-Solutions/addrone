@@ -1,6 +1,21 @@
 import Image from "next/image";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
 
 function Mvo() {
+  const MySwal = withReactContent(Swal);
+  const toggleMore = () => {
+    MySwal.fire({
+      title: "Executive Summary",
+      text: "Addrone Digital is a value addition company within the drone industry. We are a registered entity under the Kenya company regulation act that was founded on April 30th 2018. Addrone meaning Advertising using Drones became an idea first when our Founder Desmond Ikirima wanted to introduce something new to the market. He identified that advertising is a multi-billion entity but it is short of novelty and creativity. This triggered his thought mechanism and he noticed that drones are commanding and attractive. Hence, they can be used as an art to create a varied objective. His experience in a marketing firm made him envision that drones can bring a new invigorate in advertising. In his quest and desire to learn, Addrone Digital has transmuted and is primed for the market, as drone technology is constantly evolving and new innovation are budding. Through an affiliation with Kenya Flying Labs, County Government, Cereal Growers Asscoation, Pula and Yesero Mugenyi Foundation,we have explored the current state and future possibilities of the use of unmanned aerial vehicles. We have looked at drones from several contrasting and complementary perspectives  not just advertising, but also agriculture, insurance, surveying and mapping.",
+      showClass: {
+        popup: "animate__animated animate__fadeInDown",
+      },
+      hideClass: {
+        popup: "animate__animated animate__fadeOutUp",
+      },
+    });
+  };
   return (
     <section className="w-full pb-20 overflow-x-hidden bg-black">
       <div className="max-w-5xl mx-auto md:px-8 xl:px-0">
@@ -43,12 +58,12 @@ function Mvo() {
                 industry. We are a registered entity under the Kenya company
                 regulation act that was founded on April 30th 2018.
               </p>
-              <a
-                href="#_"
-                className="bg-blue-600 text-white mt-8 inline-block md:mx-0 mx-auto rounded-full px-5 py-1.5"
+              <button
+                onClick={toggleMore}
+                className="bg-[#00a5b5] text-white mt-8 inline-block md:mx-0 mx-auto rounded-full px-2 md:px-5 py-1.5"
               >
                 Read More
-              </a>
+              </button>
               <h2 className="text-5xl font-bold text-white">Mission</h2>
               <div className="flex flex-col items-center pt-4 space-y-4 md:items-start">
                 <p className="text-center text-white md:text-left">
