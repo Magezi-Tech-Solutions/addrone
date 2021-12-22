@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply transition-all duration-150 ease-out cursor-pointer h-7 hover:scale-125;
+  }
+
+  .navbarLink {
+    @apply inline-block w-full py-2 mx-0 ml-6 font-medium text-left transition duration-150 border-blue-500 cursor-pointer hover:scale-105 hover:border-b hover:text-[whitesmoke] md:ml-0 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center;
+  }
+}
