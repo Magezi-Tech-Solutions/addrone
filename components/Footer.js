@@ -110,7 +110,7 @@ function Footer() {
           </a>
         </div>
         <p className="mt-8 text-base leading-6 text-center text-gray-900">
-          © 2021 AdDrone Digital. All rights reserved.
+          © 2021 ADDRONE DIGITAL. All rights reserved.
         </p>
       </div>
     </section>

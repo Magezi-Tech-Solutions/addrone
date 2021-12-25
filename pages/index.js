@@ -10,7 +10,7 @@ import Team from "../components/Team";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen lg:bg-black">
+    <div className="flex flex-col items-center justify-center min-h-screen font-sans lg:bg-black">
       <Head>
         <title>AdDrone Digital</title>
         <link rel="icon" href="/logo.png" />

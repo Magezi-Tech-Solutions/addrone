@@ -22,10 +22,10 @@ function Navbar() {
           <Link href="/">
             <div className="inline-block py-4 md:py-0">
               <span className="p-1 text-xl font-black leading-none text-gray-900">
-                <span>AdDrone</span>
-                <span className="hidden sm:hidden lg:inline-flex text-[#00a5b5]">
+                <span>ADDRONE</span>
+                <span className="hidden sm:hidden ml-1 lg:inline-flex text-[#00a5b5]">
                   {" "}
-                  Digital
+                  DIGITAL
                 </span>
               </span>
             </div>
@@ -37,7 +37,7 @@ function Navbar() {
           <div className="flex-col w-full h-auto overflow-hidden bg-white rounded-lg md:bg-transparent md:overflow-visible md:rounded-none md:relative md:flex md:flex-row">
             <Link href="/">
               <div className="inline-flex items-center block w-auto h-16 px-6 text-xl font-black leading-none text-gray-900 md:hidden">
-                AdDrone<span className="text-[#00a5b5] ">Digital</span>
+                ADDRONE <span className="text-[#00a5b5] ml-3"> DIGITAL</span>
               </div>
             </Link>
             <div className="flex flex-col items-start justify-center w-full space-x-6 text-center lg:space-x-8 md:w-2/3 md:mt-0 md:flex-row md:items-center">
@@ -68,15 +68,9 @@ function Navbar() {
             <div className="flex flex-col items-start justify-end w-full pt-4 md:items-center md:w-1/3 md:flex-row md:py-0">
               <a
                 href="#"
-                className="flex items-center w-full px-6 py-2 mr-0 text-2xl text-[whitesmoke] md:px-0 lg:pl-2 md:mr-4 lg:mr-5 md:w-auto"
+                className="flex items-center hover:text-green-400 w-full px-6 py-2 mr-0 text-2xl text-[whitesmoke] md:px-0 lg:pl-2 md:mr-4 lg:mr-5 md:w-auto"
               >
                 <BsWhatsapp />
-              </a>
-              <a
-                href="#_"
-                className="inline-flex items-center w-full px-6 py-3 text-2xl font-medium leading-4 text-gray-900 bg-[#00a5b5] md:px-3 md:w-auto md:rounded-full lg:px-5 hover:bg-[#ffe800] focus:outline-none md:focus:ring-2 focus:ring-0 focus:ring-offset-2 focus:ring-indigo-600"
-              >
-                <MdSupportAgent />
               </a>
             </div>
           </div>

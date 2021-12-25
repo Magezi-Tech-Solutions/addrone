@@ -1,6 +1,6 @@
 function Clients() {
   return (
-    <section className="bg-gray-50">
+    <section className="bg-[whitesmoke] bg-opacity-90 rounded-t-lg">
       <div className="flex flex-col px-5 pb-20 mx-auto sm:flex-row pt-14 max-w-7xl sm:px-6 lg:px-14">
         <div className="w-full max-w-sm mx-auto space-y-2 sm:mx-0 sm:max-w-none sm:w-1/2 pr-14 lg:pr-10 xl:pr-32">
           <div className="flex items-center">

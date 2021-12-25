@@ -1,12 +1,20 @@
 function Services() {
   return (
-    <section className="w-full md:px-10 bg-gray-50 lg:px-0">
+    <section className="w-full md:px-10 bg-[whitesmoke] bg-opacity-90 lg:px-0">
       <div className="max-w-4xl py-20 mx-auto">
-        <h2 className="flex justify-start w-full text-4xl font-black text-left md:text-5xl md:text-center md:justify-center">
-          <span>How We Can Help</span>
+        <h2 className="relative flex justify-start w-full text-4xl font-black text-left md:text-5xl md:text-center md:justify-center">
+          <img
+            src="/drones/drone2.gif"
+            className="absolute left-0 hidden ml-4 h-28 w-36 md:inline-flex"
+          />
+          <span>How We Can Help?</span>
           <img
             src="https://cdn.devdojo.com/images/october2021/shooting-star.png"
             className="w-12 h-12 ml-4"
+          />
+          <img
+            src="/drones/drone.gif"
+            className="absolute right-0 ml-4 w-36 h-36"
           />
         </h2>
         <div className="grid gap-10 pt-16 pb-10 md:grid-cols-1">
